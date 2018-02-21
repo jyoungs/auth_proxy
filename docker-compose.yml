@@ -4,5 +4,4 @@ services:
     build: .
     ports:
      - "80:80"
-     - "81:81"
     env_file: "secrets.env"
