@@ -14,4 +14,4 @@ ENV OIDC_PASSPHRASE <<REDACTED>>
 ENV OIDC_REDIRECT_URI http://localhost/auth_zero_redirect
 ENV PROXY_PASS http://example.com/
 
-EXPOSE 80
+EXPOSE 80 81
